@@ -27,14 +27,38 @@
             <div class="ui raised very padded text container segment">
                <h2 class="ui header">Ville de <%= town %></h2>
               <div style="width:510px;color:#000;border:1px solid #F2F2F2;">
-                <a href="https://www.prevision-meteo.ch/meteo/localite/<%= town %>"><img src="https://www.prevision-meteo.ch/uploads/widget/<%= town %>_0.png" width="650" height="250" /></a>
-                <a style="text-decoration:none;font-size:0.75em;" title="Détail des prévisions pour <%= town %>" href="http://www.prevision-meteo.ch/meteo/localite/<%= town %>">Prévisions complètes pour <%= town %></a>
+                <a href="https://www.prevision-meteo.ch/meteo/localite/<%= town %>"><img src="<%= imgsrc %>" width="45" height="45" /></a>
+                <a style="text-decoration:none;font-size:0.75em;" title="Détail des prévisions pour <%= town %>"
+                   href="http://www.prevision-meteo.ch/meteo/localite/<%= town %>">Prévisions complètes pour <%= town %></a>
               </div>
               <!-- <h2 class="ui header">Dogs Roles with Humans</h2>-->
               <p> lever de soleil <b><%= soleil %></b></p>
               <p> coucher de soleil <b><%= csoleil %></b></p>
               <p> température <b><%= temp %>°</b></p>
               <p>Il fait actuellement <b><%= condition %></b></p>
+<div class="ui grid">
+  <div class="five wide column">
+    <a href="https://www.prevision-meteo.ch/meteo/localite/<%= town %>"><img src="<%= imgsrc1 %>" width="45" height="45" /></a>
+    <p><b><%= jour1 %></b></p>
+    <p> température minimum<b><%= tempmin1 %>°</b></p>
+    <p> température maximum<b><%= tempmax1 %>°</b></p>
+    <p>Il fera <b><%= condition1 %></b></p>
+  </div>
+  <div class="five wide column">
+    <a href="https://www.prevision-meteo.ch/meteo/localite/<%= town %>"><img src="<%= imgsrc2 %>" width="45" height="45" /></a>
+    <p><b><%= jour2 %></b></p>
+    <p> température minimum<b><%= tempmin2 %>°</b></p>
+    <p> température maximum<b><%= tempmax2 %>°</b></p>
+    <p>Il fera <b><%= condition2 %></b></p>
+  </div>
+  <div class="five wide column">
+    <a href="https://www.prevision-meteo.ch/meteo/localite/<%= town %>"><img src="<%= imgsrc3 %>" width="45" height="45" /></a>
+    <p><b><%= jour3 %></b></p>
+    <p> température minimum<b><%= tempmin3 %>°</b></p>
+    <p> température maximum<b><%= tempmax3 %>°</b></p>
+    <p>Il fera <b><%= condition3 %></b></p>
+  </div>
+</div>
             </div>
          <% }; %>
      </div>

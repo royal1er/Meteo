@@ -15,6 +15,7 @@
     "express": "^4.17.1",
     "express-validator": "^6.4.0",
     "fomantic-ui": "^2.8.4",
+    "get-json": "^1.0.1",
     "iniparser": "^1.0.5",
     "mysql": "^2.18.1",
     "node-rest-client": "^3.1.0"
