@@ -3,7 +3,6 @@
 Contributions most welcome.
 
 ![](https://media.giphy.com/media/l46CA80WlUNqV6PZe/giphy.gif)
-![](https://media.giphy.com/media/jeAQYN9FfROX6/giphy.gif)
 
 ## Contents
 
