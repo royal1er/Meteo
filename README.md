@@ -2,7 +2,7 @@
 
 Contributions most welcome.
 
-![](https://giphy.com/gifs/l46CA80WlUNqV6PZe/html5)
+![](https://giphy.com/gifs/l46CA80WlUNqV6PZe)
 
 ## Contents
 
