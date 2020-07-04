@@ -16,7 +16,19 @@ Contributions most welcome.
 
 ## Utilisation
 
-Ce projet permet de lister les informations météos pour une ville passé dans la barre de recherche. Elle liste après les infos météo pour le jour même ainsi que pour les 5 jours suivantes.
+Le projet exploite l'api du site prevision-meteo.ch :  https://www.prevision-meteo.ch/services
+
+* Après avoir lancé le projet à l'aide de la commande "node index.js" il faut renseigné l'url suivant dans le moteur de recherche : http://localhost:3000/
+Une fois l’adresse “http://localhost:3000/” saisie on obtient la vue ci-dessous :
+
+![](Capture.PNG)
+
+* Lorsqu'une ville est saisie le projet liste les informations météo pour le jour actuels et les suivants :
+
+![](Capture1.PNG)
+
+* Il est possible que le site ne liste pas les informations météo pour une ville saisie parceque elle n'est pas renseigné dans l'api ou qu'elle soit mal sasie, dans ce cas on obtient la vue suivante
+![](Capture2.PNG)
 
 ## License
 
