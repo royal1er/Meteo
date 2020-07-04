@@ -8,6 +8,7 @@ Contributions most welcome.
 
 1. [Installation](#installation)
 2. [Utilisation](#utilisation)
+3. [Licence](#Licence)
 
 ## Installation
 * git clone https://github.com/royal1er/Meteo.git
@@ -30,7 +31,7 @@ Une fois l’adresse “http://localhost:3000/” saisie on obtient la vue ci-de
 * Il est possible que le site ne liste pas les informations météo pour une ville saisie parceque elle n'est pas renseigné dans l'api ou qu'elle soit mal sasie, dans ce cas on obtient la vue suivante
 ![](Capture2.PNG)
 
-## License
+## Licence
 
 [![CC0](http://i.creativecommons.org/p/zero/1.0/88x31.png)](http://creativecommons.org/publicdomain/zero/1.0/)
 
