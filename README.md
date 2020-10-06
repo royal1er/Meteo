@@ -19,8 +19,7 @@ Contributions most welcome.
 
 Le projet exploite l'api du site prevision-meteo.ch :  https://www.prevision-meteo.ch/services
 
-* Après avoir lancé le projet à l'aide de la commande "node index.js" il faut renseigné l'url suivant dans le moteur de recherche : http://localhost:3000/
-Une fois l’adresse “http://localhost:3000/” saisie on obtient la vue ci-dessous :
+* Après avoir lancé le projet à l'aide de la commande "node index.js" il faut renseigner l'URL suivant dans le moteur de recherche : http://localhost:3000/ . Une fois l’adresse “http://localhost:3000/” saisie on obtient la vue ci-dessous :
 
 ![](Capture.PNG)
 
@@ -28,7 +27,7 @@ Une fois l’adresse “http://localhost:3000/” saisie on obtient la vue ci-de
 
 ![](Capture1.PNG)
 
-* Il est possible que le site ne liste pas les informations météo pour une ville saisie parceque elle n'est pas renseigné dans l'api ou qu'elle soit mal sasie, dans ce cas on obtient la vue suivante
+* Il est possible que le site ne liste pas les informations météo pour une ville saisie parce qu'elle n'est pas renseignée dans l'api ou qu'elle soit mal saisie, dans ce cas on obtient la vue suivante.
 ![](Capture2.PNG)
 
 ## Licence
